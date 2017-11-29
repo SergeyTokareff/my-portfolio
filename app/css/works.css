@@ -1,0 +1,35 @@
+.works {
+  background: #F0FFF0;
+}
+.works-wrapper {
+  width: 66%;
+  margin: 0 auto;
+  text-align: center;
+}
+.works-wrapper .works-heading {
+  padding-top: 10rem;
+}
+.works-wrapper .works-heading h2 {
+  font-size: 3rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #222;
+  letter-spacing: 5px;
+}
+.works-wrapper .works-heading hr {
+  width: 100px;
+  display: inline-block;
+  margin: 3rem 0 5rem;
+  color: #333;
+}
+.works-portfolio .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.works-portfolio .row div {
+  width: 32rem;
+  height: 22rem;
+  background: #000;
+}

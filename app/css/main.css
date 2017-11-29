@@ -1,0 +1,103 @@
+.header {
+  background: url("../img/IMG_20171126_134836.jpg") center center no-repeat;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.header-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 60, 0.9);
+}
+.header-wrapper {
+  position: absolute;
+  width: 100%;
+  top: 35%;
+  color: #708090;
+}
+.header-wrapper p {
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  font-size: 1.6rem;
+}
+.header-wrapper h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+}
+.navigation-wrapper {
+  width: 66%;
+  margin: 0 auto;
+  height: 5rem;
+}
+.navigation-wrapper ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 2.5rem;
+}
+@media (max-width: 1260px) {
+  .navigation-wrapper ul {
+    justify-content: center;
+  }
+}
+.navigation-wrapper ul li {
+  margin-left: 30px;
+  padding-top: 1.2rem;
+}
+.navigation-wrapper ul a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #666;
+}
+.navigation-wrapper ul a:hover {
+  color: #4169E1;
+}
+.works {
+  background: #F0FFF0;
+}
+.works-wrapper {
+  width: 66%;
+  margin: 0 auto;
+  text-align: center;
+}
+.works-wrapper .works-heading {
+  padding-top: 10rem;
+}
+.works-wrapper .works-heading h2 {
+  font-size: 3rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #222;
+  letter-spacing: 5px;
+}
+.works-wrapper .works-heading hr {
+  width: 100px;
+  display: inline-block;
+  margin: 3rem 0 5rem;
+  color: #333;
+}
+.works-portfolio .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.works-portfolio .row div {
+  width: 32rem;
+  height: 22rem;
+  background: #000;
+}
+html {
+  font-size: 10px;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
